@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Dummy output information
-        run: echo "Deploying reusable workflow"
+        run: echo ${{ secrets.DUMMY_SECRET }}
