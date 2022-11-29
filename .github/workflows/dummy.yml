@@ -1,0 +1,8 @@
+name: Testing remote workflow
+on: workflow_call
+jobs:
+  run_this_bich:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dummy output information
+        run: echo "Deploying reusable workflow"
